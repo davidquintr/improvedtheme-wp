@@ -3,23 +3,23 @@
 ?>
 
  <article class="container p-2">
-    <header class="container">
-        <p><?php the_tags( ); ?></p>
-        <p><?php echo get_the_date(); ?></p>
-
+    <header class="container p-5">
+        <h2><?php echo get_the_date(); ?></h2>
+        <div class="tags">
+            <?php the_tags('<span class="tag"><i class="fa-solid fa-tag me-2"></i>','</span><span class="tag"><i class="fa-solid fa-tag me-2"></i>','</span>' ); ?>
+        </div>
+        <p><?php comments_number() ?></p>
     </header>
 
 
     <?php
-        if(have_posts()){
-            while(have_posts()){
-                the_post();
-                the_content();
-            }
-        }
+        the_content();
+
     ?>
-    
- </article>
+
+    <?php
+        comments_template();
+    ?>
 
 <?php
     get_footer();
