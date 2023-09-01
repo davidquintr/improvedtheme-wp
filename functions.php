@@ -30,7 +30,7 @@ function improvedtheme_register_styles(){
 add_action( 'wp_enqueue_scripts', 'improvedtheme_register_styles');
 
 function improvedtheme_register_scripts(){
-    wp_enqueue_script('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js', array(), '5.2.3', true);
+    wp_enqueue_script('tailwind', 'https://cdn.tailwindcss.com', array(), '5.2.3', true);
 }
 
 add_action('wp_enqueue_scripts', 'improvedtheme_register_scripts');

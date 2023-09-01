@@ -5,6 +5,24 @@ Version: 0.1
 Description: idk what im doing
 Tags: ugly, testing, yup
 **/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #f9f9f9 !important;
+}
+
+.color-blue{
+    color: #385cad;
+}
+
+.font-article{
+    font-size: small !important;
+    font-weight: 800 !important;
+}
 
 .tags{
     display: flex;
@@ -18,4 +36,17 @@ Tags: ugly, testing, yup
     background-color: rgb(236, 236, 236);
     padding: 2px;
     padding-inline: 8px;
+}
+
+.article-title {
+    letter-spacing: 0.05em;
+    color: #385cad;
+}
+
+.article-link{
+    display: flex;
+}
+
+.nav-item:hover{
+    color: rgb(0, 40, 171);
 }

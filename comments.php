@@ -5,8 +5,6 @@
             <?php
             if (!have_comments()) {
                 echo "Deja un comentario";
-            } else {
-                echo get_comment_count() . "comentarios";
             }
 
             ?>
