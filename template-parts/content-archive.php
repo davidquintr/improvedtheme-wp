@@ -1,5 +1,4 @@
 
-
 <li class="bg-white hover:brightness-95 active:scale-95 transition-all">
     <a class="flex flex-col w-[250px] h-[290px]" href="<?php the_permalink()?>">
         <img class="w-full h-auto" src="<?php the_post_thumbnail_url() ?>">

@@ -21,7 +21,7 @@
                 ?>
             
                 <img class="w-[64px] h-auto" src="<?php echo $logo[0] ?>">
-                <h1 class="text-xl font-bold"><?php echo wp_get_document_title(); ?></h1>
+                <h1 class="text-xl font-bold"><?php wp_get_document_title(); ?></h1>
                 <p class="">Testing page for learn WordPress</p>
             </div>
         </div>

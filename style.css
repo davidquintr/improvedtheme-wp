@@ -50,3 +50,14 @@ body{
 .nav-item:hover{
     color: rgb(0, 40, 171);
 }
+
+.list-navigation{
+    font-weight:400;
+    color: rgb(233, 233, 233) !important;
+
+
+}
+
+.list-navigation  a{
+    text-decoration: underline;
+}
